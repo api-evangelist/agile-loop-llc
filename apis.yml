@@ -1,9 +1,28 @@
 aid: agile-loop-llc
 name: Agile Loop L.L.C.
-description: Agile Loop L.L.C. is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Agile Loop L.L.C. is a London-founded enterprise AI company (founded 2023, backed by 500 Global)
+  building Large Action Models — action-first foundation models trained on thousands of software
+  interfaces so AI agents can operate any user interface and execute multi-step workflows end-to-end
+  from natural-language instructions. Its product suite spans Sector Fusion (telecom network
+  analytics), an Intelligent Evaluation Platform (AI scoring and fraud detection), LLM Ops
+  (governance for LLM applications), an Aviation Ops Suite, and SAM-X (natural-language Excel
+  automation), alongside the open-source Synapse Copilot toolkit for connecting LLMs to APIs and an
+  embeddable Copilot widget for SaaS products. Agile Loop publishes no public OpenAPI, developer
+  portal, or versioned client SDKs at the time of this profile.
 url: https://raw.githubusercontent.com/api-evangelist/agile-loop-llc/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://agileloop.ai/agile-loop-logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -15,6 +34,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Large Action Models
+- LLM
+- Automation
+- Enterprise AI
+- Foundation Models
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/agile-loop-llc-domain-security.yml
+- type: Packages
+  url: packages/agile-loop-llc-packages.yml
 - type: Website
   url: https://agileloop.ai
+- type: About
+  url: https://agileloop.ai/about
+- type: Blog
+  url: https://agileloop.ai/blogs
+- type: PrivacyPolicy
+  url: https://agileloop.ai/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/Agile-Loop
+- type: SourceCode
+  url: https://github.com/Agile-Loop/Synapse-Copilot
+- type: LinkedIn
+  url: https://www.linkedin.com/company/agileloop/
+- type: Twitter
+  url: https://x.com/AgileLoopAI
+- type: Discord
+  url: https://discord.com/invite/Yv6wTEAKyf
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

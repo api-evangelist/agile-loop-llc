@@ -1,0 +1,18 @@
+generated: '2026-07-17'
+method: searched
+source: https://github.com/Agile-Loop/Synapse-Copilot
+packages:
+- language: python
+  registry: github
+  name: Synapse-Copilot
+  url: https://github.com/Agile-Loop/Synapse-Copilot
+  install: git clone https://github.com/Agile-Loop/Synapse-Copilot.git && pip install -r requirements.txt
+  official: true
+  description: Open-source model API code toolkit for integrating Large Language Models
+    (LLMs) with a wide range of APIs via Postman collections or OpenAPI 3.0 specs.
+    Source-install only; not published to PyPI/npm at time of harvest.
+notes: >-
+  Agile Loop publishes no versioned client SDKs on npm, PyPI, Maven Central, NuGet,
+  pkg.go.dev, RubyGems, Packagist, or crates.io as of 2026-07-17. Synapse-Copilot is
+  the only first-party open-source package and is distributed as a git-clone toolkit
+  rather than a registry release, so no SDKs pointer is emitted.
