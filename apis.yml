@@ -48,6 +48,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: IssueTracker
+  url: https://github.com/Agile-Loop/Synapse-Copilot/issues
+- type: Releases
+  url: https://github.com/Agile-Loop/Synapse-Copilot/releases
 - type: DomainSecurity
   url: security/agile-loop-llc-domain-security.yml
 - type: Packages
