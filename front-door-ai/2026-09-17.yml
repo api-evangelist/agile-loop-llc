@@ -1,0 +1,33 @@
+# Front Door AI Index — agile-loop-llc — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: agile-loop-llc
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: agileloop.ai
+  final_host: agileloop.ai
+  ownership: own
+  owner: agile-loop-llc
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 25
+  host_score: 25
+  density: 42.96
+  words: 582
+  tiers:
+    agentic: 5
+    core: 17
+    model: 3
+  ambiguous: 11
+  top_terms:
+    AI: 16
+    agent: 8
+    AI agent: 4
+    GPT: 2
+    automation: 2
+    LLMs: 1
+    OpenAI: 1
+    prompts: 1
+    smart: 1
