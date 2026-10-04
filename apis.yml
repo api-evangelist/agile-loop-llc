@@ -1,5 +1,5 @@
 aid: agile-loop-llc
-name: Agile Loop L.L.C.
+name: Agile Loop
 description: >-
   Agile Loop L.L.C. is a London-founded enterprise AI company (founded 2023, backed by 500 Global)
   building Large Action Models — action-first foundation models trained on thousands of software
@@ -12,15 +12,18 @@ description: >-
   portal, or versioned client SDKs at the time of this profile.
 url: https://raw.githubusercontent.com/api-evangelist/agile-loop-llc/refs/heads/main/apis.yml
 deliveryModel:
-  model: unknown
+  model: library
+  license_evidence:
+    not_product:
+    - agile-loop/synapse-copilot
   open_source: unknown
   commercial: false
   callable_host: false
-  label: Delivery model not determined — needs a product licence on record
+  label: Library · distributed through package registries, no callable service
   confidence: low
   source:
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
@@ -90,3 +93,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Agile Loop L.L.C.
